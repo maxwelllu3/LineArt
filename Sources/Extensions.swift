@@ -23,7 +23,6 @@ public extension Tortoise {
 
     func start() {
 
-        self.penColor(.white)
         self.penUp()
         self.goto(-350, -100)
         self.setHeading(90)
@@ -31,6 +30,7 @@ public extension Tortoise {
 
     func capitalM() {
 
+        self.penColor(.white)
         self.penDown()
         self.right(-100)
         self.curve(withSides: 40, withSize: 15, drawSides: 5)

@@ -4,7 +4,7 @@ import CoreGraphics
 
 let myFrame = CGRect(x: 0, y: 0, width: 800, height: 600)
 let canvas = PlaygroundCanvas(frame: myFrame)
-canvas.frameRate = 144
+canvas.frameRate = 60
 canvas.color = .black
 PlaygroundPage.current.liveView = canvas
 
@@ -14,11 +14,7 @@ canvas.drawing { turtle in
     turtle.start()
     
     // Draw capital M
-    turtle.ycor
-    turtle.heading
     turtle.capitalM()
-    turtle.ycor
-    turtle.heading
 
     // Draw a
     turtle.a()
