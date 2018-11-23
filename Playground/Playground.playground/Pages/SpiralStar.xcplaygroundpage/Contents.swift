@@ -7,13 +7,13 @@ import CoreGraphics
 let myFrame = CGRect(x: 0, y: 0, width: 300, height: 300)
 let canvas = PlaygroundCanvas(frame: CGRect(x: 0, y: 0, width: 500, height: 500))
 canvas.frameRate = 60
-canvas.color = .black
+canvas.color = .white
 PlaygroundPage.current.liveView = canvas
     
 
 
 canvas.drawing { turtle in
-    turtle.penColor(.white)
+    turtle.penColor(.black)
 
     //Set Starting Position & Heading
     turtle.penUp()
